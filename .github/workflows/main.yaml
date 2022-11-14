@@ -11,7 +11,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        jdk: [ 11, 17 ]
+        jdk: [ 19 ]
         os: [ windows-latest ]
       fail-fast: true
       max-parallel: 4
